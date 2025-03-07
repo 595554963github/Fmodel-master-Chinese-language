@@ -1,0 +1,56 @@
+using System.ComponentModel;
+
+namespace CUE4Parse.UE4.Versions
+{
+    public enum ELanguage
+    {
+        [Description("英语")]
+        English,
+        [Description("澳式英语")]
+        AustralianEnglish,
+        [Description("英式英语")]
+        BritishEnglish,
+        [Description("法语")]
+        French,
+        [Description("德语")]
+        German,
+        [Description("意大利语")]
+        Italian,
+        [Description("西班牙语")]
+        Spanish,
+        [Description("拉丁语")]
+        SpanishLatin,
+        [Description("墨西哥语")]
+        SpanishMexico,
+        [Description("阿拉伯语")]
+        Arabic,
+        [Description("日语")]
+        Japanese,
+        [Description("韩语")]
+        Korean,
+        [Description("波兰语")]
+        Polish,
+        [Description("葡萄牙语")]
+        Portuguese,
+        [Description("巴西语")]
+        PortugueseBrazil,
+        [Description("俄语")]
+        Russian,
+        [Description("土耳其语")]
+        Turkish,
+        [Description("中文")]
+        Chinese,
+        [Description("中文(台湾)")]
+        TraditionalChinese,
+        [Description("瑞典语")]
+        Swedish,
+        [Description("泰语")]
+        Thai,
+        [Description("印度尼西亚语")]
+        Indonesian,
+        [Description("越南语")]
+        VietnameseVietnam,
+        [Description("南非祖鲁语")]
+        Zulu
+    }
+}
